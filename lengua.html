@@ -1,20 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <title>INF</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Lengua</title>
+    <style>
+        /* Estilo para centrar el PDF */
+        .pdf-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100vh; /* Altura de la pantalla */
+        }
+
+        /* Estilo responsive */
+        .pdf-viewer {
+            width: 90%; /* Ancho del PDF en el móvil */
+            height: 80vh; /* Altura del PDF en el móvil */
+            max-width: 600px; /* Ancho máximo en pantallas grandes */
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <img src="logo.jpg.png" alt="Logo de la Escuela" style="max-width: 1000px; height: auto; margin-top: 10px;" class="logo"> 
-        <h1>Lengua</h1>
-    </header>
-<main style="justify-content: center;">
-    <embed src="nati.pdf" type="application/pdf" width="600" height="400">
-</main>
-<a href="index.html">Volver al menu</a>
+
+<div class="pdf-container">
+    <embed src="nati.pdf" type="application/pdf" class="pdf-viewer">
+</div>
+
 </body>
 </html>
+
