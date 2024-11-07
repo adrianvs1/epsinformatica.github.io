@@ -5,7 +5,7 @@ body {
     background-color: #fdfdfd; /* Fondo suave */
     color: #333; /* Texto gris oscuro */
     line-height: 1.6;
-    animation: fadeIn 1s ease-in;
+    animation: fadeIn 2s ease-in;
 }
 
 header {
@@ -16,7 +16,7 @@ header {
     display: flex; /* Usa flexbox para alinear el logo y el título */
     align-items: center; /* Alinea verticalmente los elementos al centro */
     justify-content: space-between; /* Alinea logo a la izquierda y título centrado */
-    animation: fadeIn 5s ease-in;
+    animation: fadeIn 1s ease-in;
 }
 
 header {
